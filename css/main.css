@@ -111,7 +111,7 @@ textarea {
    h1 {
      color: #2b3991;
      font-family: 'Lora', sans-serif;
-     font-size: 1.875em;
+     font-size: 2.25em;
      font-weight: 500;
      margin: 0;
    }
@@ -120,7 +120,7 @@ textarea {
    h3 {
      color: #2b3991;
      font-family: 'Lora', sans-serif;
-     font-size: 2.25em;
+     font-size: 1.875em;
      font-weight: 500;
      margin: 20px 0;
    }
@@ -181,6 +181,8 @@ nav {
 .logo {
   display: flex;
   justify-content: flex-start;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 .nav-list {
@@ -267,6 +269,7 @@ nav {
 
 .hero-area p {
   color: #fff;
+  display: none;
   font-size: 2em;
   padding: 0 20px;
   margin: 0;
@@ -280,7 +283,7 @@ nav {
   margin: 10px;
   text-align: center;
   text-transform: uppercase;
-  width: 10%;
+  width: 30%;
 }
 
 .button a {
@@ -306,6 +309,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 20px 0;
 }
 
 .what-item {
@@ -327,6 +331,7 @@ nav {
   align-items: center;
   flex-flow: row wrap;
   background: #bf1e2e;
+  font-weight: bold;
 }
 
 .benefits .content-wrapper {
@@ -334,6 +339,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 20px 0;
 }
 
 .benefits h1 {
@@ -388,6 +394,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 20px 0;
 }
 
 .who-img {
@@ -408,7 +415,7 @@ footer .content-wrapper {
   justify-content: space-around;
   align-items: center;
   padding: 50px 0;
-  width: 50%;
+  width: 100%;
 }
 
 .social-icons p {
@@ -417,7 +424,6 @@ footer .content-wrapper {
   align-items: center;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   height: 40px;
   width: 40px;
 }
@@ -428,7 +434,7 @@ footer .content-wrapper {
 }
 
 .social-icons i:hover {
-    color: #2b3991;
+  color: #bf1e2e;
 }
 
 .footer-logo {
@@ -437,7 +443,13 @@ footer .content-wrapper {
 }
 
 .member-logo {
+  padding: 50px 0;
+  text-align: center;
+  width: 100%;
+}
 
+.member-logo img {
+  padding: 0 20px;
 }
 
 .copyright p {
@@ -538,10 +550,65 @@ footer .content-wrapper {
 
 @media only screen and (min-width: 768px) {
   /* tablet styles here */
+
+  .button {
+    width: 10%;
+  }
+
+  .social-icons {
+    width: 50%;
+  }
+
+  .benefits-item {
+    width: 30%;
+  }
+
 }
+
 
 @media only screen and (min-width: 1200px) {
   /* desktop styles here */
+
+.hamburger-btn {
+  display: none;
+}
+
+.nav-list {
+  position: relative;
+  height: 45px;
+  top: 0;
+  background: none;
+  float: right;
+  text-align: right;
+  margin-right: 25px;
+  transition: none;
+ }
+
+.nav-list li {
+  display: inline-block;
+  opacity: 1;
+  line-height: 75px;
+  margin: 0 20px;
+  transition: none;
+ }
+
+ .nav-list li a {
+   color: #2b3991;
+ }
+
+ .nav-list li a.active,
+ .nav-list li a:hover {
+   color: #5c93ce;
+ }
+
+ .hero-area p {
+   display: block;
+ }
+
+ .benefits-item {
+   width: 15%;
+ }
+
 }
 
 @media print,
