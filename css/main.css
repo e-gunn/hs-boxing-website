@@ -320,7 +320,8 @@ nav {
 }
 
 .what-img {
-  width: 30%;
+  padding: 10px 0;
+  width: 100%;
 }
 
 /* -------------------- benefits ----------------- */
@@ -604,6 +605,11 @@ footer .content-wrapper {
 
  .hero-area p {
    display: block;
+ }
+
+ .what-img {
+   padding: 0 10px;
+   width: 40%;
  }
 
  .benefits-item {
