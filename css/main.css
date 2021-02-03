@@ -504,6 +504,7 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #bf1e2e;
   padding: 10px 0;
   width: 100%;
 }
@@ -518,6 +519,7 @@ footer .content-wrapper {
 }
 
 .contact h2 {
+  color: #fff;
   padding: 40px 0;
   text-align: center;
   width: 100%;
@@ -528,7 +530,8 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid #fff;
+  background: #fff;
+  border: 1px solid #bf1e2e;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 25px;
@@ -545,6 +548,7 @@ footer .content-wrapper {
 }
 
 .formspree h4 {
+  color: #bf1e2e;
   font-size: 1.5em;
   font-weight: 500;
   margin: 0;
@@ -556,15 +560,15 @@ footer .content-wrapper {
 }
 
 .form input {
-  border: 1px solid #000;
-  border-radius: 12px;
+  border: 1px solid #bf1e2e;
+  border-radius: 5px;
   padding: 10px;
   width: 100%;
 }
 
 .form textarea {
-  border: 1px solid #000;
-  border-radius: 12px;
+  border: 1px solid #bf1e2e;
+  border-radius: 5px;
   padding: 10px;
   width: 100%;
   height: 200px;
@@ -575,26 +579,31 @@ footer .content-wrapper {
 .email,
 .phone,
 .message {
+  padding: 10px;
   width: 100%;
 }
 
 .form button {
-  border: 1px solid #000;
-  border-radius: 12px;
+  background: #bf1e2e;
+  border: 1px solid #fff;
+  border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
   padding: 10px;
   margin: 20px 0;
   text-transform: uppercase;
-  width: 100%;
+  width: 50%;
 }
 
 .form button i {
+  color: #fff;
   padding: 5px 10px;
 }
 
 .form button:hover {
   background: #fff;
-  color: #5c93ce;
+  color: #bf1e2e;
+  cursor: pointer;
   transition: 0.5s;
 }
 
