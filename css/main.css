@@ -276,7 +276,7 @@ nav {
   margin: 0;
 }
 
-.button {
+.hero-area button {
   background-color: #bf1e2e;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -287,12 +287,13 @@ nav {
   width: 30%;
 }
 
-.button a {
+.hero-area button a {
   color: #fff;
 }
 
-.button:hover {
-  background: rgba(52, 74, 95, 0.7);
+.hero-area button:hover {
+  background: rgba(247, 71, 71, 0.7);
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -715,7 +716,7 @@ input[type=message] {
 @media only screen and (min-width: 768px) {
   /* tablet styles here */
 
-  .button {
+  .hero-area button {
     width: 10%;
   }
 
