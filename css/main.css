@@ -494,11 +494,137 @@ footer .content-wrapper {
 
 /* ------------------------ about page ---------------------------- */
 
+.hero-area-about {
+  background: url(../img/boxing-2.jpg) center no-repeat #333;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: 500px;
+  width: 100%;
+}
+
+.hero-area-about h2 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  width: 100%;
+}
+
 /* ------------------------ programs page ---------------------------- */
+
+.hero-area-programs {
+  background: url(../img/pr.jpg) center no-repeat #333;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: 500px;
+  width: 100%;
+}
+
+.hero-area-programs h2 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.programs .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  width: 100%;
+}
 
 /* ------------------------ press page ---------------------------- */
 
+.hero-area-press {
+  background: url(../img/ring.jpg) center no-repeat #333;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: 500px;
+  width: 100%;
+}
+
+.hero-area-press h2 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
+
+.press {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.press .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
+  width: 100%;
+}
+
 /* ------------------------ contact page ---------------------------- */
+
+.hero-area-contact {
+  background: url(../img/boxing-1.jpg) center no-repeat #333;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  min-height: 500px;
+  width: 100%;
+}
+
+.hero-area-contact h2 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
+}
 
 .contact {
   display: flex;
@@ -516,14 +642,6 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  width: 100%;
-}
-
-.contact h2 {
-  color: #fff;
-  font-size: 2em;
-  padding: 30px 0;
-  text-align: center;
   width: 100%;
 }
 
@@ -728,9 +846,11 @@ input[type=message] {
     width: 30%;
   }
 
-  .contact {
-    display: flex;
-    flex-flow: row-reverse;
+  .hero-area-about h2,
+  .hero-area-programs h2,
+  .hero-area-press h2,
+  .hero-area-contact h2 {
+    font-size: 4em;
   }
 
   address {
