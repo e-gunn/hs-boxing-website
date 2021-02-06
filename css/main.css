@@ -323,15 +323,16 @@ nav {
   text-transform: uppercase;
 }
 
-.what-item {
+.what figure {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.what-img {
-  padding: 10px 0;
+.what img {
+  border: 10px solid #2b3991;
+  margin: 10px 0;
   width: 100%;
 }
 
@@ -419,7 +420,7 @@ nav {
   text-transform: uppercase;
 }
 
-.who-img {
+.who img {
   border: 10px solid #2b3991;
   border-radius: 50%;
 }
@@ -916,9 +917,8 @@ h4 {
    display: block;
  }
 
- .what-img {
-   padding: 0 10px;
-   width: 40%;
+ .what figure {
+   width: 45%;
  }
 
  .benefits-item {
