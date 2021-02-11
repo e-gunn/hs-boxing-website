@@ -254,9 +254,12 @@ nav {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: stretch;
   flex-flow: row wrap;
   min-height:500px;
+  width: 100%;
+}
+
+.hero-area .content-wrapper {
   width: 100%;
 }
 
@@ -295,6 +298,12 @@ nav {
   background: rgba(247, 71, 71, 0.7);
   cursor: pointer;
   transition: 0.5s;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: 100%;
 }
 
 /* -------------------- what -------------------- */
