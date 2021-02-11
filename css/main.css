@@ -342,7 +342,7 @@ nav {
 
 .what img {
   border: 10px solid #2b3991;
-  margin: 10px 0;
+  margin: 25px;
   width: 100%;
 }
 
@@ -962,7 +962,7 @@ h4 {
  }
 
  .what figure {
-   width: 45%;
+   width: 50%;
  }
 
  .what-description p {
