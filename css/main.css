@@ -860,6 +860,18 @@ input[type=message] {
     width: 20%;
   }
 
+  .what-description p {
+    font-size: 1.50em;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .who-description p {
+    font-size: 1.50em;
+    padding: 0 30px;
+    text-align: center;
+  }
+
   .social-icons {
     width: 50%;
   }
@@ -951,6 +963,16 @@ h4 {
 
  .what figure {
    width: 45%;
+ }
+
+ .what-description p {
+   font-size: 1.75em;
+   line-height: 1.75em;
+ }
+
+ .who-description p {
+   font-size: 1.75em;
+   line-height: 1.75em;
  }
 
  .benefits-item {
