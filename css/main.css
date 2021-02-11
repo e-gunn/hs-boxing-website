@@ -267,7 +267,7 @@ nav {
   color: #fff;
   font-size: 2em;
   font-weight: bold;
-  padding: 30px 0 0 20px;
+  padding: 20px 0 0 20px;
   text-transform: uppercase;
 }
 
@@ -283,9 +283,10 @@ nav {
   background-color: #bf1e2e;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  margin: 10px;
-  width: 30%;
+  padding: 15px;
+  margin: 0 130px;
+  margin-top: 200px;
+  width: 35%;
 }
 
 .hero-area button a {
@@ -301,7 +302,7 @@ nav {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.35);
   overflow: hidden;
   height: 100%;
 }
@@ -844,8 +845,19 @@ input[type=message] {
 @media only screen and (min-width: 768px) {
   /* tablet styles here */
 
+  .hero-area {
+    text-align: center;
+  }
+
+  .hero-area h1 {
+    margin: 20px;
+  }
+
   .hero-area button {
-    width: 10%;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-top: 200px;
+    width: 20%;
   }
 
   .social-icons {
@@ -922,8 +934,19 @@ h4 {
    color: #5c93ce;
  }
 
+ .hero-area h1 {
+   font-size: 3.25em;
+ }
+
  .hero-area p {
    display: block;
+   font-size: 1.75em;
+   line-height: 1.75em;
+   margin: 150px 75px 100px 75px;
+ }
+
+ .hero-area button {
+   margin: 50px;
  }
 
  .what figure {
