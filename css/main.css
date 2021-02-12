@@ -550,14 +550,12 @@ footer .content-wrapper {
 .mission img,
 .values img {
   border: 10px solid #f8f8ff;
-  margin: 25px;
   max-width: 300px;
   width: 100%;
 }
 
 .founder img {
   border: 10px solid #f8f8ff;
-  margin: 25px;
   max-width: 400px;
   width: 100%;
 }
