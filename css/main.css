@@ -128,7 +128,7 @@ textarea {
    p {
      color: #2b3991;
      font-size: 1em;
-     line-height: 1.285;
+     line-height: 1.285em;
    }
 
    figure {
@@ -533,6 +533,8 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #2b3991;
+  color: #f8f8ff;
   padding: 10px 0;
   width: 100%;
 }
@@ -543,22 +545,25 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  width: 100%;
 }
 
 .mission img,
 .values img {
-  border: 10px solid #bf1e2e;
+  border: 10px solid #f8f8ff;
   margin: 25px;
   max-width: 300px;
   width: 100%;
 }
 
 .founder img {
-  border: 10px solid #bf1e2e;
+  border: 10px solid #f8f8ff;
   margin: 25px;
   max-width: 400px;
   width: 100%;
+}
+
+.about p {
+  color: #f8f8ff;
 }
 
 /* ------------------------ programs page ---------------------------- */
@@ -600,7 +605,6 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  width: 100%;
 }
 
 /* ------------------------ press page ---------------------------- */
@@ -642,7 +646,6 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  width: 100%;
 }
 
 /* ------------------------ contact page ---------------------------- */
@@ -685,7 +688,6 @@ footer .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  width: 100%;
 }
 
 address {
@@ -1003,11 +1005,7 @@ h4 {
    width: 50%;
  }
 
- .what-description p {
-   font-size: 1.75em;
-   line-height: 1.75em;
- }
-
+ .what-description p,
  .who-description p {
    font-size: 1.75em;
    line-height: 1.75em;
@@ -1019,10 +1017,29 @@ h4 {
 
 /* ------------------------ about page - 1200px ---------------------------- */
 
+.about p {
+  font-size: 1.75em;
+  line-height: 1.75em;
+}
+
  .mission img,
  .values img {
    width: 75%;
  }
+
+/* ------------------------ programs page - 1200px ---------------------------- */
+
+ .programs p {
+   font-size: 1.75em;
+   line-height: 1.75em;
+ }
+
+/* ------------------------ press page - 1200px ---------------------------- */
+
+.press p {
+  font-size: 1.75em;
+  line-height: 1.75em;
+}
 
 /* ------------------------ contact page - 1200px ---------------------------- */
 
