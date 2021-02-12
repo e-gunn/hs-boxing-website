@@ -546,6 +546,21 @@ footer .content-wrapper {
   width: 100%;
 }
 
+.mission img,
+.values img {
+  border: 10px solid #bf1e2e;
+  margin: 25px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.founder img {
+  border: 10px solid #bf1e2e;
+  margin: 25px;
+  max-width: 400px;
+  width: 100%;
+}
+
 /* ------------------------ programs page ---------------------------- */
 
 .hero-area-programs {
@@ -1000,6 +1015,13 @@ h4 {
 
  .benefits-item {
    width: 15%;
+ }
+
+/* ------------------------ about page - 1200px ---------------------------- */
+
+ .mission img,
+ .values img {
+   width: 75%;
  }
 
 /* ------------------------ contact page - 1200px ---------------------------- */
