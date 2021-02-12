@@ -560,8 +560,20 @@ footer .content-wrapper {
   width: 100%;
 }
 
+.about h4 {
+  font-size: 1.75em;
+}
+
 .about p {
   color: #f8f8ff;
+}
+
+.about h5 {
+  font-size: 1.25em;
+}
+
+.about ul {
+  list-style-type: circle;
 }
 
 /* ------------------------ programs page ---------------------------- */
@@ -914,7 +926,7 @@ input[type=message] {
     width: 30%;
   }
 
-/* ------------------------ hero-area additional pages - 768px ---------------------------- */
+/* ------------------- hero-area additional pages - 768px ------------------- */
 
   .hero-area-about h2,
   .hero-area-programs h2,
@@ -922,6 +934,21 @@ input[type=message] {
   .hero-area-contact h2 {
     font-size: 4em;
   }
+
+/* ------------------------ about page - 768px ---------------------------- */
+
+.about {
+  text-align: center;
+}
+
+.about p,
+.about ul {
+  padding: 0 100px;
+}
+
+.about ul {
+  text-align: left;
+}
 
 /* ------------------------ contact page - 768px ---------------------------- */
 
