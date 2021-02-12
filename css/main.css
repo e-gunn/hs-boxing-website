@@ -1042,15 +1042,39 @@ h4 {
 
 /* ------------------------ about page - 1200px ---------------------------- */
 
+.about h4 {
+  font-size: 2.5em;
+}
+
+.about img {
+  width: 50%;
+}
+
 .about p {
   font-size: 1.75em;
   line-height: 1.75em;
+  width: 50%;
 }
 
- .mission img,
- .values img {
-   width: 75%;
- }
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.values {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.founder {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.mission img,
+.values img {
+  width: 75%;
+}
 
 /* ------------------------ programs page - 1200px ---------------------------- */
 
