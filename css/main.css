@@ -87,75 +87,75 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   html {
-     font-size: 16px;
-   }
+  html {
+   font-size: 16px;
+ }
 
-   body {
-     font-family: 'Karla', sans-serif;
-     font-size: 1em;
-     font-weight: bold;
-   }
+ body {
+   font-family: 'Karla', sans-serif;
+   font-size: 1em;
+   font-weight: bold;
+ }
 
-   ul,
-   ol {
-     list-style-type: none;
-     font-weight: bold;
-   }
+ ul,
+ ol {
+   list-style-type: none;
+   font-weight: bold;
+ }
 
-   a {
-     color: #2b3991;
-     text-decoration: none;
-   }
+ a {
+   color: #2b3991;
+   text-decoration: none;
+ }
 
-   h1 {
-     color: #2b3991;
-     font-family: 'Lora', sans-serif;
-     font-size: 1.875em;
-     font-weight: 500;
-     margin: 0;
-   }
+ h1 {
+   color: #2b3991;
+   font-family: 'Lora', sans-serif;
+   font-size: 1.875em;
+   font-weight: 500;
+   margin: 0;
+ }
 
-   h2,
-   h3 {
-     color: #2b3991;
-     font-family: 'Lora', sans-serif;
-     font-size: 1.25em;
-     font-weight: 500;
-     margin: 20px 0;
-   }
+ h2,
+ h3 {
+   color: #2b3991;
+   font-family: 'Lora', sans-serif;
+   font-size: 1.25em;
+   font-weight: 500;
+   margin: 20px 0;
+ }
 
-   p {
-     color: #2b3991;
-     font-size: 1em;
-     line-height: 1.285em;
-   }
+ p {
+   color: #2b3991;
+   font-size: 1em;
+   line-height: 1.285;
+ }
 
-   figure {
-     margin: 0;
-   }
+ figure {
+   margin: 0;
+ }
 
-   .content-wrapper {
-     width: 90%;
-   }
+ .content-wrapper {
+   width: 90%;
+ }
 
-   header,
-   footer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     background: #000;
-     margin: 0;
-     width: 100%;
-   }
+ header,
+ footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+   background: #000;
+   margin: 0;
+   width: 100%;
+ }
 
-   /* -- applied to all page hero-areas -- */
-   .overlay {
-     background: rgba(0, 0, 0, 0.35);
-     overflow: hidden;
-     height: 100%;
-   }
+ /* -- applied to all page hero-areas -- */
+ .overlay {
+   background: rgba(0, 0, 0, 0.35);
+   overflow: hidden;
+   height: 100%;
+ }
 
 /* ------------------- header section ----------------------- */
 
@@ -234,13 +234,13 @@ nav {
 }
 
 .hamburger-btn i {
-    padding: 20px;
-    transition: opacity 1s ease-in;
-  }
+  padding: 20px;
+  transition: opacity 1s ease-in;
+}
 
 .hamburger-btn i:hover {
-   opacity: 0.7;
-  }
+  opacity: 0.7;
+}
 
 #check {
   display: none;
@@ -708,7 +708,7 @@ address {
 address p {
   color: #fff;
   font-style: normal;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 .form {
@@ -937,18 +937,18 @@ input[type=message] {
 
 /* ------------------------ about page - 768px ---------------------------- */
 
-.about {
-  text-align: center;
-}
+  .about {
+    text-align: center;
+  }
 
-.about p,
-.about ul {
-  padding: 0 100px;
-}
+  .about p,
+  .about ul {
+    padding: 0 100px;
+  }
 
-.about ul {
-  text-align: left;
-}
+  .about ul {
+    text-align: left;
+  }
 
 /* ------------------------ contact page - 768px ---------------------------- */
 
@@ -970,46 +970,46 @@ input[type=message] {
 @media only screen and (min-width: 1200px) {
   /* desktop styles here */
 
-h1 {
-  font-size: 2.25em;
-}
+  h1 {
+    font-size: 2.25em;
+  }
 
-h3,
-h4 {
-  font-size: 1.875em;
-}
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
 
-.hamburger-btn {
-  display: none;
-}
+  .hamburger-btn {
+    display: none;
+  }
 
-.nav-list {
-  position: relative;
-  height: 45px;
-  top: 0;
-  background: none;
-  float: right;
-  text-align: right;
-  margin-right: 25px;
-  transition: none;
- }
+  .nav-list {
+    position: relative;
+    height: 45px;
+    top: 0;
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+  }
 
-.nav-list li {
-  display: inline-block;
-  opacity: 1;
-  line-height: 75px;
-  margin: 0 20px;
-  transition: none;
- }
+  .nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 75px;
+    margin: 0 20px;
+    transition: none;
+  }
 
- .nav-list li a {
-   color: #2b3991;
- }
+  .nav-list li a {
+    color: #2b3991;
+  }
 
- .nav-list li a.active,
- .nav-list li a:hover {
-   color: #5c93ce;
- }
+  .nav-list li a.active,
+  .nav-list li a:hover {
+    color: #5c93ce;
+  }
 
  .hero-area h1 {
    font-size: 3.25em;
@@ -1018,7 +1018,7 @@ h4 {
  .hero-area p {
    display: block;
    font-size: 1.75em;
-   line-height: 1.75em;
+   line-height: 1.75;
    margin: 150px 75px 100px 75px;
  }
 
@@ -1033,7 +1033,7 @@ h4 {
  .what-description p,
  .who-description p {
    font-size: 1.75em;
-   line-height: 1.75em;
+   line-height: 1.75;
  }
 
  .benefits-item {
@@ -1042,59 +1042,59 @@ h4 {
 
 /* ------------------------ about page - 1200px ---------------------------- */
 
-.about h4 {
-  font-size: 2.5em;
-}
+  .about h4 {
+    font-size: 2.5em;
+  }
 
-.about img {
-  width: 50%;
-}
+  .about img {
+    width: 50%;
+  }
 
-.about p {
-  font-size: 1.75em;
-  line-height: 1.75em;
-  width: 50%;
-}
+  .about p {
+    font-size: 1.75em;
+    line-height: 1.75;
+    width: 50%;
+  }
 
-.mission {
-  display: flex;
-  flex-flow: row wrap;
-}
+  .mission {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-.values {
-  display: flex;
-  flex-flow: row-reverse;
-}
+  .values {
+    display: flex;
+    flex-flow: row-reverse;
+  }
 
-.founder {
-  display: flex;
-  flex-flow: row-reverse;
-}
+  .founder {
+    display: flex;
+    flex-flow: row-reverse;
+  }
 
-.mission img,
-.values img {
-  width: 75%;
-}
+  .mission img,
+  .values img {
+    width: 75%;
+  }
 
 /* ------------------------ programs page - 1200px ---------------------------- */
 
- .programs p {
-   font-size: 1.75em;
-   line-height: 1.75em;
- }
+  .programs p {
+    font-size: 1.75em;
+    line-height: 1.75;
+  }
 
 /* ------------------------ press page - 1200px ---------------------------- */
 
-.press p {
-  font-size: 1.75em;
-  line-height: 1.75em;
-}
+  .press p {
+    font-size: 1.75em;
+    line-height: 1.75;
+  }
 
 /* ------------------------ contact page - 1200px ---------------------------- */
 
- address p {
-   font-size: 2em;
- }
+  address p {
+    font-size: 2em;
+  }
 
 }
 
