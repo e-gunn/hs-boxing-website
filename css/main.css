@@ -665,6 +665,45 @@ footer .content-wrapper {
   padding: 0;
 }
 
+.press h4 {
+  color: #2b3991;
+  width: 100%;
+}
+
+.news {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 25px 0;
+}
+
+.news img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.news p {
+  width: 100%;
+}
+
+.news button {
+  background: #2b3991;
+  border-radius: 6px;
+  padding: 5px 20px;
+}
+
+.news button a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.news button:hover {
+  background: rgba(43, 57, 145, 0.8);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 /* ------------------------ contact page ---------------------------- */
 
 .hero-area-contact {
@@ -912,79 +951,85 @@ input[type=message] {
 
 /* ------------------------ home page - 768px ---------------------------- */
 
-  .hero-area {
-    text-align: center;
-  }
+.hero-area {
+  text-align: center;
+}
 
-  .hero-area h1 {
-    margin: 20px;
-  }
+.hero-area h1 {
+  margin: 20px;
+}
 
-  .hero-area button {
-    font-size: 1.5em;
-    padding: 15px;
-    margin-top: 200px;
-    width: 20%;
-  }
+.hero-area button {
+  font-size: 1.5em;
+  padding: 15px;
+  margin-top: 200px;
+  width: 20%;
+}
 
-  .what-description p {
-    font-size: 1.50em;
-    padding: 0 30px;
-    text-align: center;
-  }
+.what-description p {
+  font-size: 1.50em;
+  padding: 0 30px;
+  text-align: center;
+}
 
-  .who-description p {
-    font-size: 1.50em;
-    padding: 0 30px;
-    text-align: center;
-  }
+.who-description p {
+  font-size: 1.50em;
+  padding: 0 30px;
+  text-align: center;
+}
 
-  .social-icons {
-    width: 50%;
-  }
+.social-icons {
+  width: 50%;
+}
 
-  .benefits-item {
-    width: 30%;
-  }
+.benefits-item {
+  width: 30%;
+}
 
 /* ------------------- hero-area additional pages - 768px ------------------- */
 
-  .hero-area-about h2,
-  .hero-area-programs h2,
-  .hero-area-press h2,
-  .hero-area-contact h2 {
-    font-size: 4em;
-  }
+.hero-area-about h2,
+.hero-area-programs h2,
+.hero-area-press h2,
+.hero-area-contact h2 {
+  font-size: 4em;
+}
 
 /* ------------------------ about page - 768px ---------------------------- */
 
-  .about {
-    text-align: center;
-  }
+.about {
+  text-align: center;
+}
 
-  .about p,
-  .about ul {
-    padding: 0 100px;
-  }
+.about p,
+.about ul {
+  padding: 0 100px;
+}
 
-  .about ul {
-    text-align: left;
-  }
+.about ul {
+  text-align: left;
+}
+
+/* ------------------------ programs page - 768px ---------------------------- */
+
+/* ------------------------ press page - 768px ---------------------------- */
+
+
 
 /* ------------------------ contact page - 768px ---------------------------- */
 
-  address {
-    width: 40%;
-  }
+address {
+  width: 40%;
+}
 
-  address p {
-    font-size: 1.25em;
-  }
+address p {
+  font-size: 1.25em;
+}
 
-  .form {
-    margin: 50px 0;
-    width: 75%;
-  }
+.form {
+  margin: 50px 0;
+  width: 75%;
+}
 
 }
 
@@ -992,157 +1037,173 @@ input[type=message] {
 @media only screen and (min-width: 1200px) {
   /* desktop styles here */
 
-  h1 {
-    font-size: 2.25em;
-  }
+h1 {
+  font-size: 2.25em;
+}
 
-  h3,
-  h4 {
-    font-size: 1.875em;
-  }
+h3,
+h4 {
+  font-size: 1.875em;
+}
 
-  .hamburger-btn {
-    display: none;
-  }
+.hamburger-btn {
+  display: none;
+}
 
-  .nav-list {
-    position: relative;
-    height: 45px;
-    top: 0;
-    background: none;
-    float: right;
-    text-align: right;
-    margin-right: 25px;
-    transition: none;
-  }
+.nav-list {
+  position: relative;
+  height: 45px;
+  top: 0;
+  background: none;
+  float: right;
+  text-align: right;
+  margin-right: 25px;
+  transition: none;
+}
 
-  .nav-list li {
-    display: inline-block;
-    opacity: 1;
-    line-height: 75px;
-    margin: 0 20px;
-    transition: none;
-  }
+.nav-list li {
+  display: inline-block;
+  opacity: 1;
+  line-height: 75px;
+  margin: 0 20px;
+  transition: none;
+}
 
-  .nav-list li a {
-    color: #2b3991;
-  }
+.nav-list li a {
+  color: #2b3991;
+}
 
-  .nav-list li a.active,
-  .nav-list li a:hover {
-    color: #5c93ce;
-  }
+.nav-list li a.active,
+.nav-list li a:hover {
+  color: #5c93ce;
+}
 
- .hero-area h1 {
-   font-size: 3.25em;
- }
+.hero-area h1 {
+  font-size: 3.25em;
+}
 
- .hero-area p {
-   display: block;
-   font-size: 1.75em;
-   line-height: 1.75;
-   margin: 150px 75px 100px 75px;
- }
+.hero-area p {
+  display: block;
+  font-size: 1.75em;
+  line-height: 1.75;
+  margin: 150px 75px 100px 75px;
+}
 
- .hero-area button {
-   margin: 50px;
- }
+.hero-area button {
+  margin: 50px;
+}
 
- .what figure {
-   width: 50%;
- }
+.what figure {
+  width: 50%;
+}
 
- .what-description p,
- .who-description p {
-   font-size: 1.75em;
-   line-height: 1.75;
- }
+.what-description p,
+.who-description p {
+  font-size: 1.75em;
+  line-height: 1.75;
+}
 
- .benefits-item {
-   width: 15%;
- }
+.benefits-item {
+  width: 15%;
+}
 
 /* ------------------------ about page - 1200px ---------------------------- */
 
-  .about h4 {
-    font-size: 2.5em;
-  }
+.about h4 {
+  font-size: 2.5em;
+}
 
-  .about img {
-    width: 50%;
-  }
+.about img {
+  width: 50%;
+}
 
-  .about p {
-    font-size: 1.75em;
-    line-height: 1.75;
-    width: 50%;
-  }
+.about p {
+  font-size: 1.75em;
+  line-height: 1.75;
+  width: 50%;
+}
 
-  .mission {
-    display: flex;
-    flex-flow: row wrap;
-  }
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+}
 
-  .values {
-    display: flex;
-    flex-flow: row-reverse;
-  }
+.values {
+  display: flex;
+  flex-flow: row-reverse;
+}
 
-  .founder {
-    display: flex;
-    flex-flow: row-reverse;
-  }
+.founder {
+  display: flex;
+  flex-flow: row-reverse;
+}
 
-  .mission img,
-  .values img {
-    width: 75%;
-  }
+.mission img,
+.values img {
+  width: 75%;
+}
 
 /* ------------------------ programs page - 1200px ---------------------------- */
 
-  .programs p {
-    font-size: 1.75em;
-    line-height: 1.75;
-  }
+.programs p {
+  font-size: 1.75em;
+  line-height: 1.75;
+}
 
 /* ------------------------ press page - 1200px ---------------------------- */
 
-  .press p {
-    font-size: 1.75em;
-    line-height: 1.75;
-  }
+.press p {
+  font-size: 1.75em;
+  line-height: 1.75;
+}
+
+.news {
+  border-bottom: 1px solid #2b3991;
+  padding: 40px;
+  margin: 0;
+  width: 100%;
+}
+
+.news-content {
+  margin: 0 20px;
+  width: 70%;
+}
+
+.news img {
+  width: 20%;
+}
 
 /* ------------------------ contact page - 1200px ---------------------------- */
 
-  address p {
-    font-size: 2em;
-  }
+address p {
+  font-size: 2em;
+}
 
-  .contact .content-wrapper {
-    display: flex;
-    flex-flow: row reverse;
-  }
+.contact .content-wrapper {
+  display: flex;
+  flex-flow: row reverse;
+}
 
-  .contact-info {
-    justify-content: flex-start;
-    margin-right: 50px;
-    width: 45%;
-  }
+.contact-info {
+  justify-content: flex-start;
+  margin-right: 50px;
+  width: 45%;
+}
 
-  .contact-info figure {
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  }
+.contact-info figure {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
 
-  address {
-    padding: 0;
-    width: 100%;
-  }
+address {
+  padding: 0;
+  width: 100%;
+}
 
-  .form {
-    width: 45%;
-  }
+.form {
+  width: 45%;
+}
 
 }
 
