@@ -707,8 +707,22 @@ footer .content-wrapper {
   padding: 0;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.contact-info img {
+  border: 5px solid #bf1e2e;
+  border-radius: 50%;
+  margin: 20px;
+}
+
 address {
-  padding: 0 40px;
+  padding: 0 20px;
   width: 100%;
 }
 
@@ -1109,8 +1123,25 @@ input[type=message] {
     flex-flow: row reverse;
   }
 
+  .contact-info {
+    justify-content: flex-start;
+    margin-right: 50px;
+    width: 45%;
+  }
+
+  .contact-info figure {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  address {
+    padding: 0;
+    width: 100%;
+  }
+
   .form {
-    width: 40%;
+    width: 45%;
   }
 
 }
