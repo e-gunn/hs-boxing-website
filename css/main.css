@@ -727,8 +727,8 @@ address p {
   border: 2px solid #bf1e2e;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  padding: 25px;
-  margin: 0 25px;
+  padding: 20px;
+  margin: 20px;
   width: 100%;
 }
 
@@ -968,7 +968,8 @@ input[type=message] {
   }
 
   .form {
-    width: 40%;
+    margin: 50px 0;
+    width: 75%;
   }
 
 }
@@ -1101,6 +1102,15 @@ input[type=message] {
 
   address p {
     font-size: 2em;
+  }
+
+  .contact .content-wrapper {
+    display: flex;
+    flex-flow: row reverse;
+  }
+
+  .form {
+    width: 40%;
   }
 
 }
