@@ -92,6 +92,7 @@ COLOR PALETTE
 colors sourced from company branding
 #bf1e2e - red
 #2b3991 - blue
+#f8f8ff - off white
 */
 
   html {
@@ -1115,6 +1116,7 @@ h4 {
 
 .about p {
   font-size: 1.75em;
+  font-weight: 500;
   line-height: 1.75;
 }
 
@@ -1122,16 +1124,20 @@ h4 {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  border-bottom: 1px solid #f8f8ff;
+  padding-bottom: 50px;
 }
 
 .values {
   display: flex;
   flex-flow: row-reverse;
+  border-bottom: 1px solid #f8f8ff;
+  padding-bottom: 50px;
 }
 
 .founder {
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row wrap;
 }
 
 .mission img,
@@ -1142,20 +1148,20 @@ h4 {
 
 .mission p {
   padding: 0 40px 0 20px;
-  text-align: left;
+  margin: 0;
   width: 50%;
 }
 
 .values p {
-  padding: 0 20px 0 40px;
+  padding: 0 20px 30px 40px;
+  margin: 0;
   text-align: left;
-  width: 50%;
 }
 
 .founder p {
-  padding: 0 20px 0 40px;
+  padding: 0 20px 30px 40px;
+  margin: 0;
   text-align: left;
-  width: 50%;
 }
 
 /* ------------------------ programs page - 1200px ---------------------------- */
