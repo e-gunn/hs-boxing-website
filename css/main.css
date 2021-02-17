@@ -1113,18 +1113,14 @@ h4 {
   font-size: 2.5em;
 }
 
-.about img {
-  width: 50%;
-}
-
 .about p {
   font-size: 1.75em;
   line-height: 1.75;
-  width: 50%;
 }
 
 .mission {
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
@@ -1139,8 +1135,27 @@ h4 {
 }
 
 .mission img,
-.values img {
-  width: 75%;
+.values img,
+.founder img {
+  width: 50%;
+}
+
+.mission p {
+  padding: 0 40px 0 20px;
+  text-align: left;
+  width: 50%;
+}
+
+.values p {
+  padding: 0 20px 0 40px;
+  text-align: left;
+  width: 50%;
+}
+
+.founder p {
+  padding: 0 20px 0 40px;
+  text-align: left;
+  width: 50%;
 }
 
 /* ------------------------ programs page - 1200px ---------------------------- */
