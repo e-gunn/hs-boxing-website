@@ -91,7 +91,7 @@ textarea {
 COLOR PALETTE
 colors sourced from company branding
 #bf1e2e - red
-#2b3991 - blue 
+#2b3991 - blue
 */
 
   html {
@@ -310,7 +310,7 @@ nav {
 }
 
 .hero-area button:hover {
-  background: rgba(247, 71, 71, 0.7);
+  background: rgba(191, 30, 46, 0.8);
   cursor: pointer;
   transition: 0.5s;
 }
