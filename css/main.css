@@ -712,6 +712,13 @@ footer .content-wrapper {
   transition: 0.5s;
 }
 
+.news-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 /* ------------------------ contact page ---------------------------- */
 
 .hero-area-contact {
@@ -1020,9 +1027,12 @@ input[type=message] {
 
 /* ------------------------ programs page - 768px ---------------------------- */
 
+
 /* ------------------------ press page - 768px ---------------------------- */
 
-
+.news {
+  justify-content: center;
+}
 
 /* ------------------------ contact page - 768px ---------------------------- */
 
