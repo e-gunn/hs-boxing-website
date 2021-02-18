@@ -1125,6 +1125,7 @@ h4 {
   font-size: 1.75em;
   font-weight: 500;
   line-height: 1.75;
+  padding: 0;
 }
 
 .mission {
@@ -1148,9 +1149,12 @@ h4 {
 }
 
 .mission img,
-.values img,
+.values img {
+  width: 30%;
+}
+
 .founder img {
-  width: 50%;
+  width: 40%;
 }
 
 .mission p {
@@ -1169,6 +1173,26 @@ h4 {
   padding: 0 20px 30px 40px;
   margin: 0;
   text-align: left;
+}
+
+.copy {
+  width: 70%;
+}
+
+.founder .copy {
+  width: 60%;
+}
+
+.facts {
+  padding-bottom: 40px;
+}
+
+.facts h5 {
+  text-align: center;
+}
+
+.facts ul {
+  margin: 0 50px;
 }
 
 /* ------------------------ programs page - 1200px ---------------------------- */
