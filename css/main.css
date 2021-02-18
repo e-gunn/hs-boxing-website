@@ -92,6 +92,7 @@ COLOR PALETTE
 colors sourced from company branding
 #bf1e2e - red
 #2b3991 - blue
+#5c93ce - light blue
 #f8f8ff - off white
 */
 
@@ -666,6 +667,12 @@ footer .content-wrapper {
   padding: 0;
 }
 
+.press a:hover {
+  color: #5c93ce;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .press h4 {
   color: #2b3991;
   width: 100%;
@@ -1179,6 +1186,7 @@ h4 {
 
 .press p {
   font-size: 1.75em;
+  font-weight: 500;
   line-height: 1.75;
 }
 
