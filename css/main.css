@@ -266,7 +266,7 @@ nav {
 /* ------------------------ Main Section ---------------------------------- */
 
 .hero-area {
-  background: url(../img/hero.jpg) center no-repeat #333;
+  background: url(../img/hero.jpg) center no-repeat #2b3991;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -516,7 +516,7 @@ footer .content-wrapper {
 /* ------------------------ about page ---------------------------- */
 
 .hero-area-about {
-  background: url(../img/boxing-2.jpg) center no-repeat #333;
+  background: url(../img/boxing-2.jpg) center no-repeat #2b3991;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -588,7 +588,7 @@ footer .content-wrapper {
 /* ------------------------ programs page ---------------------------- */
 
 .hero-area-programs {
-  background: url(../img/pr.jpg) center no-repeat #333;
+  background: url(../img/pr.jpg) center no-repeat #2b3991;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -629,7 +629,7 @@ footer .content-wrapper {
 /* ------------------------ press page ---------------------------- */
 
 .hero-area-press {
-  background: url(../img/ring.jpg) center no-repeat #333;
+  background: url(../img/ring.jpg) center no-repeat #2b3991;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -722,7 +722,7 @@ footer .content-wrapper {
 /* ------------------------ contact page ---------------------------- */
 
 .hero-area-contact {
-  background: url(../img/boxing-1.jpg) center no-repeat #333;
+  background: url(../img/boxing-1.jpg) center no-repeat #2b3991;
   background-size: cover;
   display: flex;
   justify-content: center;
