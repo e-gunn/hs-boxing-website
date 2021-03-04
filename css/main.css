@@ -1066,13 +1066,6 @@ address p {
   max-width: 1400px;
 }
 
-/*
-header,
-footer {
-  max-width: 1400px;
-}
-*/
-
 h1 {
   font-size: 2.25em;
 }
@@ -1113,6 +1106,12 @@ h4 {
 .nav-list li a:hover {
   color: #5c93ce;
 }
+
+/*
+.hero-area {
+  max-width: 1400px;
+}
+*/
 
 .hero-area h1 {
   font-size: 3.25em;
