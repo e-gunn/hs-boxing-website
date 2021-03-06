@@ -271,7 +271,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  min-height:500px;
+  min-height: 500px;
   width: 100%;
 }
 
@@ -1106,12 +1106,6 @@ h4 {
 .nav-list li a:hover {
   color: #5c93ce;
 }
-
-/*
-.hero-area {
-  max-width: 1400px;
-}
-*/
 
 .hero-area h1 {
   font-size: 3.25em;
