@@ -1232,10 +1232,18 @@ h4 {
 
 /* ------------------------ press page - 1200px ---------------------------- */
 
+.media p {
+  padding: 0 60px;
+}
+
 .press p {
   font-size: 1.75em;
   font-weight: 500;
   line-height: 1.75;
+}
+
+.press h4 {
+  padding: 0 60px;
 }
 
 .news {
