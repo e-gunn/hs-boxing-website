@@ -1220,12 +1220,14 @@ h4 {
 
 .programs h4 {
   color: #2b3991;
+  margin-bottom: 0;
 }
 
 .programs p {
   font-size: 1.75em;
   font-weight: 500;
   line-height: 1.75;
+  padding: 0 60px;
 }
 
 /* ------------------------ press page - 1200px ---------------------------- */
