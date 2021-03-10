@@ -3,7 +3,7 @@ Business website for a nonprofit organization running an amateur boxing program 
 
 ## Project Details
 
-**View My Project:** https://e-gunn.github.io/hs-boxing-website/
+**View My Project:** https://heartandsoulboxing.org
 
 ![Project Screenshot](https://github.com/e-gunn/hs-boxing-website/blob/main/img/screenshot.png)
 
