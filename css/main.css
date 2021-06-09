@@ -96,75 +96,75 @@ colors sourced from company branding
 #f8f8ff - off white
 */
 
- html {
-   font-size: 16px;
- }
+html {
+  font-size: 16px;
+}
 
- body {
-   font-family: 'Karla', sans-serif;
-   font-size: 1em;
-   font-weight: bold;
- }
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
 
- ul,
- ol {
-   list-style-type: none;
-   font-weight: bold;
- }
+ul,
+ol {
+  list-style-type: none;
+  font-weight: bold;
+}
 
- a {
-   color: #2b3991;
-   text-decoration: none;
- }
+a {
+  color: #2b3991;
+  text-decoration: none;
+}
 
- h1 {
-   color: #2b3991;
-   font-family: 'Lora', sans-serif;
-   font-size: 1.875em;
-   font-weight: 500;
-   margin: 0;
- }
+h1 {
+  color: #2b3991;
+  font-family: "Lora", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+  margin: 0;
+}
 
- h2,
- h3 {
-   color: #2b3991;
-   font-family: 'Lora', sans-serif;
-   font-size: 1.25em;
-   font-weight: 500;
-   margin: 20px 0;
- }
+h2,
+h3 {
+  color: #2b3991;
+  font-family: "Lora", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 20px 0;
+}
 
- p {
-   color: #2b3991;
-   font-size: 1em;
-   line-height: 1.285;
- }
+p {
+  color: #2b3991;
+  font-size: 1em;
+  line-height: 1.285;
+}
 
- figure {
-   margin: 0;
- }
+figure {
+  margin: 0;
+}
 
- .content-wrapper {
-   width: 90%;
- }
+.content-wrapper {
+  width: 90%;
+}
 
- header,
- footer {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-   background: #fff;
-   margin: 0;
-   width: 100%;
- }
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #fff;
+  margin: 0;
+  width: 100%;
+}
 
- /* -- applied to all page hero-areas -- */
- .overlay {
-   background: rgba(0, 0, 0, 0.35);
-   overflow: hidden;
-   height: 100%;
- }
+/* -- applied to all page hero-areas -- */
+.overlay {
+  background: rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  height: 100%;
+}
 
 /* ------------------- header section ----------------------- */
 
@@ -299,16 +299,13 @@ nav {
   background-color: #bf1e2e;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
   padding: 15px;
   margin: 0 130px;
   margin-top: 200px;
-  width: 35%;
-}
-
-.hero-area button a {
-  color: #fff;
   text-align: center;
   text-transform: uppercase;
+  width: 35%;
 }
 
 .hero-area button:hover {
@@ -827,8 +824,8 @@ address p {
   padding: 20px 0;
 }
 
-input[type=text],
-input[type=message] {
+input[type="text"],
+input[type="message"] {
   border: 2px solid #bf1e2e;
   border-radius: 5px;
   padding: 10px;
@@ -971,329 +968,325 @@ input[type=message] {
 @media only screen and (min-width: 768px) {
   /* tablet styles here */
 
-/* ------------------------ home page - 768px ---------------------------- */
+  /* ------------------------ home page - 768px ---------------------------- */
 
-.hero-area {
-  text-align: center;
+  .hero-area {
+    text-align: center;
+  }
+
+  .hero-area h1 {
+    margin: 20px;
+  }
+
+  .hero-area button {
+    font-size: 1.5em;
+    padding: 15px;
+    margin-top: 200px;
+    width: 20%;
+  }
+
+  .what-description p {
+    font-size: 1.5em;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .who-description p {
+    font-size: 1.5em;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .social-icons {
+    width: 50%;
+  }
+
+  .benefits-item {
+    width: 30%;
+  }
+
+  /* ------------------- hero-area additional pages - 768px ------------------- */
+
+  .hero-area-about h2,
+  .hero-area-programs h2,
+  .hero-area-press h2,
+  .hero-area-contact h2 {
+    font-size: 4em;
+  }
+
+  /* ------------------------ about page - 768px ---------------------------- */
+
+  .about {
+    text-align: center;
+  }
+
+  .about p,
+  .about ul {
+    padding: 0 100px;
+  }
+
+  .about ul {
+    text-align: left;
+  }
+
+  /* ------------------------ programs page - 768px ---------------------------- */
+
+  /* ------------------------ press page - 768px ---------------------------- */
+
+  .news {
+    justify-content: center;
+  }
+
+  /* ------------------------ contact page - 768px ---------------------------- */
+
+  address {
+    width: 40%;
+  }
+
+  address p {
+    font-size: 1.25em;
+  }
+
+  .form {
+    margin: 50px 0;
+    width: 75%;
+  }
 }
-
-.hero-area h1 {
-  margin: 20px;
-}
-
-.hero-area button {
-  font-size: 1.5em;
-  padding: 15px;
-  margin-top: 200px;
-  width: 20%;
-}
-
-.what-description p {
-  font-size: 1.50em;
-  padding: 0 30px;
-  text-align: center;
-}
-
-.who-description p {
-  font-size: 1.50em;
-  padding: 0 30px;
-  text-align: center;
-}
-
-.social-icons {
-  width: 50%;
-}
-
-.benefits-item {
-  width: 30%;
-}
-
-/* ------------------- hero-area additional pages - 768px ------------------- */
-
-.hero-area-about h2,
-.hero-area-programs h2,
-.hero-area-press h2,
-.hero-area-contact h2 {
-  font-size: 4em;
-}
-
-/* ------------------------ about page - 768px ---------------------------- */
-
-.about {
-  text-align: center;
-}
-
-.about p,
-.about ul {
-  padding: 0 100px;
-}
-
-.about ul {
-  text-align: left;
-}
-
-/* ------------------------ programs page - 768px ---------------------------- */
-
-
-/* ------------------------ press page - 768px ---------------------------- */
-
-.news {
-  justify-content: center;
-}
-
-/* ------------------------ contact page - 768px ---------------------------- */
-
-address {
-  width: 40%;
-}
-
-address p {
-  font-size: 1.25em;
-}
-
-.form {
-  margin: 50px 0;
-  width: 75%;
-}
-
-}
-
 
 @media only screen and (min-width: 1200px) {
   /* desktop styles here */
 
-.content-wrapper {
-  max-width: 1400px;
-}
+  .content-wrapper {
+    max-width: 1400px;
+  }
 
-h1 {
-  font-size: 2.25em;
-}
+  h1 {
+    font-size: 2.25em;
+  }
 
-h3,
-h4 {
-  font-size: 1.875em;
-}
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
 
-.hamburger-btn {
-  display: none;
-}
+  .hamburger-btn {
+    display: none;
+  }
 
-.nav-list {
-  position: relative;
-  height: 45px;
-  top: 0;
-  background: none;
-  float: right;
-  text-align: right;
-  margin-right: 25px;
-  transition: none;
-}
+  .nav-list {
+    position: relative;
+    height: 45px;
+    top: 0;
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+  }
 
-.nav-list li {
-  display: inline-block;
-  opacity: 1;
-  line-height: 75px;
-  margin: 0 20px;
-  transition: none;
-}
+  .nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 75px;
+    margin: 0 20px;
+    transition: none;
+  }
 
-.nav-list li a {
-  color: #2b3991;
-}
+  .nav-list li a {
+    color: #2b3991;
+  }
 
-.nav-list li a.active,
-.nav-list li a:hover {
-  color: #5c93ce;
-}
+  .nav-list li a.active,
+  .nav-list li a:hover {
+    color: #5c93ce;
+  }
 
-.hero-area h1 {
-  font-size: 3.25em;
-}
+  .hero-area h1 {
+    font-size: 3.25em;
+  }
 
-.hero-area p {
-  display: block;
-  font-size: 1.75em;
-  line-height: 1.75;
-  margin: 150px 75px 100px 75px;
-}
+  .hero-area p {
+    display: block;
+    font-size: 1.75em;
+    line-height: 1.75;
+    margin: 150px 75px 100px 75px;
+  }
 
-.hero-area button {
-  margin: 50px;
-}
+  .hero-area button {
+    margin: 50px;
+  }
 
-.what figure {
-  width: 50%;
-}
+  .what figure {
+    width: 50%;
+  }
 
-.what-description p,
-.who-description p {
-  font-size: 1.75em;
-  line-height: 1.75;
-}
+  .what-description p,
+  .who-description p {
+    font-size: 1.75em;
+    line-height: 1.75;
+  }
 
-.benefits-item {
-  width: 15%;
-}
+  .benefits-item {
+    width: 15%;
+  }
 
-/* ------------------------ about page - 1200px ---------------------------- */
+  /* ------------------------ about page - 1200px ---------------------------- */
 
-.about h4 {
-  font-size: 2.5em;
-}
+  .about h4 {
+    font-size: 2.5em;
+  }
 
-.about p {
-  font-size: 1.75em;
-  font-weight: 500;
-  line-height: 1.75;
-  padding: 0;
-}
+  .about p {
+    font-size: 1.75em;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 0;
+  }
 
-.mission {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  border-bottom: 1px solid #f8f8ff;
-  padding-bottom: 50px;
-}
+  .mission {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #f8f8ff;
+    padding-bottom: 50px;
+  }
 
-.values {
-  display: flex;
-  flex-flow: row-reverse;
-  border-bottom: 1px solid #f8f8ff;
-  padding-bottom: 50px;
-}
+  .values {
+    display: flex;
+    flex-flow: row-reverse;
+    border-bottom: 1px solid #f8f8ff;
+    padding-bottom: 50px;
+  }
 
-.founder {
-  display: flex;
-  flex-flow: row wrap;
-}
+  .founder {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-.mission img,
-.values img {
-  width: 30%;
-}
+  .mission img,
+  .values img {
+    width: 30%;
+  }
 
-.founder img {
-  width: 40%;
-}
+  .founder img {
+    width: 40%;
+  }
 
-.mission p {
-  padding: 0 40px 0 20px;
-  margin: 0;
-  width: 50%;
-}
+  .mission p {
+    padding: 0 40px 0 20px;
+    margin: 0;
+    width: 50%;
+  }
 
-.values p {
-  padding: 0 20px 30px 40px;
-  margin: 0;
-  text-align: left;
-}
+  .values p {
+    padding: 0 20px 30px 40px;
+    margin: 0;
+    text-align: left;
+  }
 
-.founder p {
-  padding: 0 20px 30px 40px;
-  margin: 0;
-  text-align: left;
-}
+  .founder p {
+    padding: 0 20px 30px 40px;
+    margin: 0;
+    text-align: left;
+  }
 
-.copy {
-  width: 70%;
-}
+  .copy {
+    width: 70%;
+  }
 
-.founder .copy {
-  width: 60%;
-}
+  .founder .copy {
+    width: 60%;
+  }
 
-.facts {
-  padding-bottom: 40px;
-}
+  .facts {
+    padding-bottom: 40px;
+  }
 
-.facts h5 {
-  text-align: center;
-}
+  .facts h5 {
+    text-align: center;
+  }
 
-.facts ul {
-  margin: 0 50px;
-}
+  .facts ul {
+    margin: 0 50px;
+  }
 
-/* ------------------------ programs page - 1200px ---------------------------- */
+  /* ------------------------ programs page - 1200px ---------------------------- */
 
-.programs h4 {
-  color: #2b3991;
-  margin-bottom: 0;
-}
+  .programs h4 {
+    color: #2b3991;
+    margin-bottom: 0;
+  }
 
-.programs p {
-  font-size: 1.75em;
-  font-weight: 500;
-  line-height: 1.75;
-  padding: 0 60px;
-}
+  .programs p {
+    font-size: 1.75em;
+    font-weight: 500;
+    line-height: 1.75;
+    padding: 0 60px;
+  }
 
-/* ------------------------ press page - 1200px ---------------------------- */
+  /* ------------------------ press page - 1200px ---------------------------- */
 
-.media p {
-  padding: 0 60px;
-}
+  .media p {
+    padding: 0 60px;
+  }
 
-.press p {
-  font-size: 1.75em;
-  font-weight: 500;
-  line-height: 1.75;
-}
+  .press p {
+    font-size: 1.75em;
+    font-weight: 500;
+    line-height: 1.75;
+  }
 
-.press h4 {
-  padding: 0 60px;
-}
+  .press h4 {
+    padding: 0 60px;
+  }
 
-.news {
-  border-bottom: 1px solid #2b3991;
-  padding: 40px;
-  margin: 0;
-  width: 100%;
-}
+  .news {
+    border-bottom: 1px solid #2b3991;
+    padding: 40px;
+    margin: 0;
+    width: 100%;
+  }
 
-.news-content {
-  margin: 0 20px;
-  width: 70%;
-}
+  .news-content {
+    margin: 0 20px;
+    width: 70%;
+  }
 
-.news img {
-  width: 20%;
-}
+  .news img {
+    width: 20%;
+  }
 
-/* ------------------------ contact page - 1200px ---------------------------- */
+  /* ------------------------ contact page - 1200px ---------------------------- */
 
-address p {
-  font-size: 2em;
-}
+  address p {
+    font-size: 2em;
+  }
 
-.contact .content-wrapper {
-  display: flex;
-  flex-flow: row reverse;
-}
+  .contact .content-wrapper {
+    display: flex;
+    flex-flow: row reverse;
+  }
 
-.contact-info {
-  justify-content: flex-start;
-  margin-right: 50px;
-  width: 45%;
-}
+  .contact-info {
+    justify-content: flex-start;
+    margin-right: 50px;
+    width: 45%;
+  }
 
-.contact-info figure {
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
+  .contact-info figure {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
 
-address {
-  padding: 0;
-  width: 100%;
-}
+  address {
+    padding: 0;
+    width: 100%;
+  }
 
-.form {
-  width: 45%;
-}
-
+  .form {
+    width: 45%;
+  }
 }
 
 @media print,
