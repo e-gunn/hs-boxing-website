@@ -451,6 +451,36 @@ nav {
   text-transform: uppercase;
 }
 
+/* -------------------- famous --------------------- */
+
+.famous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 50px 0;
+}
+
+.famous .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px 0;
+}
+
+.famous img {
+  border: 10px solid #2b3991;
+  margin: 0 25px;
+}
+
+.famous figcaption {
+  color:#2b3991;
+  font-size: .75em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 /* ------------------ footer -------------------- */
 
 footer {
